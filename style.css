@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  background: #AE8AF5;
+}
+
+.logo {
+  position: absolute;
+  left: 30px;
+  right: 37.43%;
+  top: 25px;
+  bottom: 0%;
+}
+
+main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+} 
+
+.mensagem {
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  left: 70%;
+  top: 20px;
+  padding-left: 20px;
+  padding-top: 80px;
+    
+  box-shadow: 0px 24px 32px -8px rgba(0, 5, 10, 20);
+  border-radius: 32px;
+}
+
+.mensagem h2 {
+  position: static;
+  width: 336px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 120%;
+    
+  text-align: center;
+    
+  color: #000000;
+
+  margin: 30px 0px;   
+}
+
+.mensagem h3 {
+  position: static;
+  width: 360px;
+  font-weight: 600;
+  font-size: 12px;
+  
+  text-align: center;
+      
+  color: #000000;
+  
+  margin: 10px 0px;
+}
+      
+.mensagem-div, .mensagem-div img {
+  border-radius: 24px;
+  top: 20px;
+  height: 320px;
+  width: 360px;
+  padding-top: 40px;
+  background: #BF71EC;
+}
+
+.div-mensagem {
+  position: absolute;
+  width: 350px;
+  height: 520px;
+  left: 26px;
+  top: 40px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 150%;
+  resize: none;
+}
+
+.div-mensagem:focus { 
+  border: none;
+  outline: none;
+}
+
+   
+.buttons-div { 
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+    
+  position: absolute;
+  width: 680px;
+  height: 67px;
+  left: 12%;
+  top: 685px;
+}
+
+.input-texto {
+  text-transform:lowercase;
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  left: 15%;
+  top: 168px;
+  
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 150%;
+  justify-content: baseline;
+  resize: none;
+  
+  color: #0A3871;
+  background: transparent;
+  border: none;
+}
+
+::placeholder { color: #0A3871; }
+
+.input-texto:focus { 
+  border: none;
+  outline: none;
+}
+
+label {
+  position: static;
+  padding-left: 25px;
+  font-weight: 600;
+    
+  font-style: normal;
+  font-size: 17px;
+  line-height: 100%;
+
+  color: #495057;
+}
+   
+.form-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+    
+  position: absolute;
+  height: 20px;
+  left: 13%;
+  top: 580px;
+}
+
+.btn-criptografar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  
+  position: static;
+  width: 250px;
+  height: 67px;
+  left: 0px;
+  top: 0px;
+  
+  
+  background: #0A3871;
+  border-radius: 24px;
+  
+  margin: -46px 24px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 19px;
+  justify-content: center; 
+    
+  cursor: pointer;
+}
+
+.btn-criptografar:hover {
+  transform: scale(1.1);
+}
+
+.btn-descriptografar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  
+  position: static;
+  width: 250px;
+  height: 67px;
+  left: 352px;
+  top: 0px;
+  
+  background: #D8DFE8;
+  
+  border: 1px solid #0A3871;
+  box-sizing: border-box;
+  border-radius: 24px;
+  
+  margin: -46px 24px;
+  
+  color: #0A3871;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 19px;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.btn-descriptografar:hover {
+  transform: scale(1.1);
+}
+
+.btn-copiar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  
+  position: absolute;
+  width: 250px;
+  height: 67px;
+  left: 75px;
+  top: 620px;
+  
+  border: 1px solid #0A3871;
+  box-sizing: border-box;
+  border-radius: 24px;
+   
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 19px;
+  text-align: center;
+            
+  color: #0A3871;
+  background-color: #D8DFE8;
+  
+  margin: 0px 8px;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.btn-copiar:hover {
+  transform: scale(1.1);
+}

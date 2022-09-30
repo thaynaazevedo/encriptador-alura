@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="assets/logo.png" class="logo" onclick="home()"> 
+    </header>
+    <main class="main">      
+      <section class="div-principal">
+        <form action="">       
+          <textarea class="input-texto" type="text" name="input-texto" maxlength="120" id="input-texto" placeholder="Digite seu texto"></textarea>
+          <div class="form-group">
+            <img src="assets/!.png" class="img-alerta">
+            <label for="input-texto">Apenas letras minúsculas e sem acento.</label>
+          </div>
+          <div class="buttons-div">
+            <input class="btn-criptografar" type="submit" value="Criptografar" id="btn-criptografar" >
+            <input class="btn-descriptografar" type="submit" value="Descriptografar" id="btn-descriptografar">
+          </div>
+        </form>
+      </section>
+  
+      <section class="mensagem">
+        <div id="div-desaparece" class="mensagem-div">
+          <img src="assets/imagem.png"> 
+          <h2>Nenhuma mensagem encontrada! &#128542</h2>
+          <h3>Digite um texto que você deseja criptografar ou descriptografar.</h3>
+        </div>      
+        <div id="div-aparece">
+          <textarea class="div-mensagem" type="text" id="mensagem" maxlength="120" placeholder="Nenhuma mensagem"></textarea>
+          <input class="btn-copiar" type="submit" value="Copiar" id="btn-copiar">
+        </div>
+      </section>
+    </main>
+    
+    <script src="script.js"></script>    
+</body>
+</html>
