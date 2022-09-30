@@ -1,6 +1,6 @@
 # Alura Challenge - Decodificador de Textos
 
-![preview](./.github/preview.png)
+![alt text] (https://raw.githubusercontent.com/thaynaazevedo/encriptador-alura/branch/path/to/preview.png)
 
 > Sprint 01
 
